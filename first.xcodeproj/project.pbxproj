@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5CEA311C2CDD02A400EBD8E7 /* first.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = first.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CEA312C2CDD02A700EBD8E7 /* firstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CEA31362CDD02A700EBD8E7 /* firstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEA311C2CDD02A400EBD8E7 /* first.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = first.app; path = "/Users/ssd/Documents/src/first/build/Debug-iphoneos/first.app"; sourceTree = "<absolute>"; };
+		5CEA312C2CDD02A700EBD8E7 /* firstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = firstTests.xctest; path = "/Users/ssd/Documents/src/first/build/Debug-iphoneos/first.app/PlugIns/firstTests.xctest"; sourceTree = "<absolute>"; };
+		5CEA31362CDD02A700EBD8E7 /* firstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = firstUITests.xctest; path = "/Users/ssd/Documents/src/first/build/Debug-iphoneos/firstUITests-Runner.app/PlugIns/firstUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -78,18 +78,7 @@
 				5CEA311E2CDD02A400EBD8E7 /* first */,
 				5CEA312F2CDD02A700EBD8E7 /* firstTests */,
 				5CEA31392CDD02A700EBD8E7 /* firstUITests */,
-				5CEA311D2CDD02A400EBD8E7 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		5CEA311D2CDD02A400EBD8E7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5CEA311C2CDD02A400EBD8E7 /* first.app */,
-				5CEA312C2CDD02A700EBD8E7 /* firstTests.xctest */,
-				5CEA31362CDD02A700EBD8E7 /* firstUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +164,7 @@
 				TargetAttributes = {
 					5CEA311B2CDD02A400EBD8E7 = {
 						CreatedOnToolsVersion = 16.1;
+						LastSwiftMigration = 1610;
 					};
 					5CEA312B2CDD02A700EBD8E7 = {
 						CreatedOnToolsVersion = 16.1;
@@ -196,7 +186,7 @@
 			mainGroup = 5CEA31132CDD02A400EBD8E7;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5CEA311D2CDD02A400EBD8E7 /* Products */;
+			productRefGroup = 5CEA31132CDD02A400EBD8E7;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -393,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"first/Preview Content\"";
@@ -411,6 +402,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ssd2008.first;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -421,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"first/Preview Content\"";
