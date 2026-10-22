@@ -143,9 +143,37 @@
       "full_history_preserved": true,
       "source_private_before_publication": true,
       "publication_authorized_by_owner": true
+    },
+    {
+      "repository": "YaLyceum25",
+      "title": "Яндекс Лицей: проект специализации, 2025",
+      "source_private": false,
+      "source_url": "https://github.com/ssd2008/YaLyceum25",
+      "source_default_branch": "master",
+      "source_head": "c39b09841d6bf8ebb81c5aec7b9daa4d9499409a",
+      "destination_branch": "codex/YaLyceum25",
+      "destination_head": "e3b419b5c4912696802879cbe887e1570f070ce9",
+      "source_files": 3,
+      "branches": [
+        {
+          "source_ref": "refs/heads/master",
+          "source_sha": "c39b09841d6bf8ebb81c5aec7b9daa4d9499409a",
+          "destination_branch": "codex/YaLyceum25"
+        }
+      ],
+      "tags": [],
+      "presentations": [
+        "АД__08__E-com.pdf"
+      ],
+      "pdf_materials": [
+        "АД__08__E-com.pdf"
+      ],
+      "local_additions": [],
+      "original_files_byte_identical": true,
+      "full_history_preserved": true
     }
   ],
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "excluded_private_forks": [
     {
       "repository": "pulse",
