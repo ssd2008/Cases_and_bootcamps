@@ -49,6 +49,108 @@
       "local_additions": [],
       "original_files_byte_identical": true,
       "full_history_preserved": true
+    },
+    {
+      "repository": "GMW",
+      "title": "Большая Математическая мастерская",
+      "source_private": false,
+      "source_url": "https://github.com/ssd2008/GMW",
+      "source_default_branch": "master",
+      "source_head": "367bb2d9888fb29e25c7b8855ced6acdafc1ec01",
+      "destination_branch": "codex/GMW",
+      "destination_head": "1f6956617fc265522f3756162cc2ebd9082b4538",
+      "source_files": 2,
+      "branches": [
+        {
+          "source_ref": "refs/heads/master",
+          "source_sha": "367bb2d9888fb29e25c7b8855ced6acdafc1ec01",
+          "destination_branch": "codex/GMW"
+        }
+      ],
+      "tags": [],
+      "presentations": [],
+      "local_additions": [],
+      "original_files_byte_identical": true,
+      "full_history_preserved": true
+    },
+    {
+      "repository": "Reshis",
+      "title": "Олимпиада «Решись» Центрального университета",
+      "source_private": false,
+      "source_url": "https://github.com/ssd2008/Reshis",
+      "source_default_branch": "master",
+      "source_head": "06aed75c76de29d9d54182822ab170e93efd03cb",
+      "destination_branch": "codex/Reshis",
+      "destination_head": "1f4897e347505c403f19092f0f43e286c00a02d1",
+      "source_files": 5,
+      "branches": [
+        {
+          "source_ref": "refs/heads/master",
+          "source_sha": "06aed75c76de29d9d54182822ab170e93efd03cb",
+          "destination_branch": "codex/Reshis"
+        }
+      ],
+      "tags": [],
+      "presentations": [],
+      "local_additions": [],
+      "original_files_byte_identical": true,
+      "full_history_preserved": true
+    },
+    {
+      "repository": "ReshisRazrab",
+      "title": "Олимпиада «Решись»: дополнительная часть",
+      "source_private": false,
+      "source_url": "https://github.com/ssd2008/ReshisRazrab",
+      "source_default_branch": "master",
+      "source_head": "68a6f6547e4f81ba37cf62306dda86e8d7981aaf",
+      "destination_branch": "codex/ReshisRazrab",
+      "destination_head": "5ef700f8da74f134004424ddd5e3ad2311dc6e9d",
+      "source_files": 1,
+      "branches": [
+        {
+          "source_ref": "refs/heads/master",
+          "source_sha": "68a6f6547e4f81ba37cf62306dda86e8d7981aaf",
+          "destination_branch": "codex/ReshisRazrab"
+        }
+      ],
+      "tags": [],
+      "presentations": [],
+      "local_additions": [],
+      "original_files_byte_identical": true,
+      "full_history_preserved": true
+    },
+    {
+      "repository": "PRODmsk",
+      "title": "Олимпиадный проект PRODmsk: Swift-приложение",
+      "source_private": false,
+      "source_url": "https://github.com/ssd2008/PRODmsk",
+      "source_default_branch": "main",
+      "source_head": "f3e4e1056d18f0eda49b48aa4868c9c73f897086",
+      "destination_branch": "codex/PRODmsk",
+      "destination_head": "24a193e520f93517ca974bbd7c4afed87f73005e",
+      "source_files": 14,
+      "branches": [
+        {
+          "source_ref": "refs/heads/main",
+          "source_sha": "f3e4e1056d18f0eda49b48aa4868c9c73f897086",
+          "destination_branch": "codex/PRODmsk"
+        }
+      ],
+      "tags": [],
+      "presentations": [],
+      "local_additions": [],
+      "original_files_byte_identical": true,
+      "full_history_preserved": true,
+      "source_private_before_publication": true,
+      "publication_authorized_by_owner": true
+    }
+  ],
+  "updated": "2026-10-22",
+  "excluded_private_forks": [
+    {
+      "repository": "pulse",
+      "disposition": "separate private archive",
+      "reason": "GitHub fork visibility follows private upstream; owner requested archiving if publication is unavailable"
     }
   ]
 }
