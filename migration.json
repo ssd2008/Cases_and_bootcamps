@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-22",
+  "owner": "ssd2008",
+  "repository": "Cases_and_bootcamps",
+  "private": false,
+  "sources": [
+    {
+      "repository": "HseCase",
+      "title": "Кейс ВШЭ: анализ здоровья и роли спорта",
+      "source_private": false,
+      "source_url": "https://github.com/ssd2008/HseCase",
+      "source_default_branch": "master",
+      "source_head": "a759823dba9a2c1161cfc59a7d56c6abd5dc720d",
+      "destination_branch": "codex/HseCase",
+      "destination_head": "2b38bc8ef8e62bf02172d82bc144a3ccf509d2de",
+      "source_files": 5,
+      "branches": [
+        {
+          "source_ref": "refs/heads/master",
+          "source_sha": "a759823dba9a2c1161cfc59a7d56c6abd5dc720d",
+          "destination_branch": "codex/HseCase"
+        }
+      ],
+      "tags": [],
+      "presentations": [],
+      "local_additions": [],
+      "original_files_byte_identical": true,
+      "full_history_preserved": true
+    },
+    {
+      "repository": "kodiim25spring",
+      "title": "КодИИМ, весна 2025: ИИ-ассистент X5",
+      "source_private": false,
+      "source_url": "https://github.com/ssd2008/kodiim25spring",
+      "source_default_branch": "master",
+      "source_head": "ef2c2f17c3522d9e807e542c1feb075c6863d034",
+      "destination_branch": "codex/kodiim25spring",
+      "destination_head": "fb86d4ff385da2944c127b3061b294c856d7a2c6",
+      "source_files": 480,
+      "branches": [
+        {
+          "source_ref": "refs/heads/master",
+          "source_sha": "ef2c2f17c3522d9e807e542c1feb075c6863d034",
+          "destination_branch": "codex/kodiim25spring"
+        }
+      ],
+      "tags": [],
+      "presentations": [],
+      "local_additions": [],
+      "original_files_byte_identical": true,
+      "full_history_preserved": true
+    }
+  ]
+}
