@@ -1,0 +1,9 @@
+# Python 3.12. PyTorch 2.2.2 has a wheel for Intel macOS.
+numpy==1.26.4
+scipy==1.12.0
+soundfile==0.14.0
+torch==2.2.2
+scikit-learn==1.5.2
+pandas==3.0.6
+joblib==1.6.0
+tqdm==4.70.1

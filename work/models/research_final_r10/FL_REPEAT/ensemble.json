@@ -1,0 +1,112 @@
+{
+  "engine": "research_v7",
+  "study": "research_v10",
+  "arm": "FL_REPEAT",
+  "cfg": {
+    "title": "FLAT + LOCAL: независимые seed",
+    "view": "base",
+    "batch": 8,
+    "kind": "base",
+    "control": "R9_FL",
+    "epochs": 4,
+    "schedule_epochs": 14,
+    "time_mode": "none",
+    "noise_all": 0.5,
+    "noise_real": 0.5,
+    "shift": 0.5,
+    "continuation": null,
+    "extra_aug": "flat_local",
+    "source_arm": null
+  },
+  "feature_config": {
+    "version": 2,
+    "map_names": [
+      "spectrum25",
+      "spectrum10",
+      "spectrum50",
+      "delta_time",
+      "delta_frequency",
+      "phase_cos",
+      "phase_sin",
+      "phase_weighted_cos",
+      "phase_weighted_sin"
+    ],
+    "max_samples": 211007,
+    "min_samples": 10439,
+    "max_frames": 1318,
+    "crop_frames": 64,
+    "hop_samples": 160,
+    "sample_rate": 16000,
+    "k_windows": 6,
+    "pause_relative_db": -30,
+    "train_only": true
+  },
+  "seeds": [
+    639320754,
+    639320755
+  ],
+  "members": [
+    {
+      "seed": 639320754,
+      "file": "seed_639320754.pt",
+      "history": [
+        {
+          "epoch": 1,
+          "bce": 0.6025366829832395,
+          "seconds": 16.78,
+          "updates": 750
+        },
+        {
+          "epoch": 2,
+          "bce": 0.5269384035865465,
+          "seconds": 16.28,
+          "updates": 1500
+        },
+        {
+          "epoch": 3,
+          "bce": 0.4753596840898196,
+          "seconds": 16.3,
+          "updates": 2250
+        },
+        {
+          "epoch": 4,
+          "bce": 0.41986111665765447,
+          "seconds": 16.16,
+          "updates": 3000
+        }
+      ]
+    },
+    {
+      "seed": 639320755,
+      "file": "seed_639320755.pt",
+      "history": [
+        {
+          "epoch": 1,
+          "bce": 0.5889563215374947,
+          "seconds": 16.19,
+          "updates": 750
+        },
+        {
+          "epoch": 2,
+          "bce": 0.5007927847603957,
+          "seconds": 15.9,
+          "updates": 1500
+        },
+        {
+          "epoch": 3,
+          "bce": 0.4400144440531731,
+          "seconds": 15.62,
+          "updates": 2250
+        },
+        {
+          "epoch": 4,
+          "bce": 0.37211445745329064,
+          "seconds": 15.49,
+          "updates": 3000
+        }
+      ]
+    }
+  ],
+  "temperature": 5.0,
+  "complete": true
+}

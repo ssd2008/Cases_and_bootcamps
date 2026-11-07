@@ -171,9 +171,33 @@
       "local_additions": [],
       "original_files_byte_identical": true,
       "full_history_preserved": true
+    },
+    {
+      "repository": "RuCode26",
+      "title": "RuCode AI 2026 · задача C «PRO: Анти-фейк»",
+      "source_private": true,
+      "source_default_branch": "master",
+      "source_head": "deea4bace327ddaa0aee5a0505e627af27542307",
+      "destination_branch": "RuCodeAI2026",
+      "transfer": "curated_snapshot",
+      "source_paths": [
+        "отправить/",
+        "mts/reports/research_v10/"
+      ],
+      "presentations": [
+        "presentation.pdf"
+      ],
+      "local_additions": [
+        "README.md",
+        "work/README.md",
+        "work/demo.py",
+        "work/research/README.md"
+      ],
+      "original_files_byte_identical": false,
+      "full_history_preserved": false
     }
   ],
-  "updated": "2026-10-23",
+  "updated": "2026-11-08",
   "excluded_private_forks": [
     {
       "repository": "pulse",

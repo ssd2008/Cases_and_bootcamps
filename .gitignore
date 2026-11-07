@@ -1,0 +1,8 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+/work/data/
+/work/models/retrained/
+/work/results/
+/work/reports/

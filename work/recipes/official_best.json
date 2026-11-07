@@ -1,0 +1,15 @@
+{
+  "name": "official_public_best_FL_REPEAT",
+  "research_only": false,
+  "equal_mean": true,
+  "components": [
+    {
+      "id": "BEST100",
+      "model_dir": "models/research_final_r10/FL_REPEAT",
+      "weight": 1.0
+    }
+  ],
+  "official_public_score": 100.0,
+  "run_id": 168314323,
+  "private_quality_unknown": true
+}

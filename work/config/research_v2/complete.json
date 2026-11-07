@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "map_names": [
+    "spectrum25",
+    "spectrum10",
+    "spectrum50",
+    "delta_time",
+    "delta_frequency",
+    "phase_cos",
+    "phase_sin",
+    "phase_weighted_cos",
+    "phase_weighted_sin"
+  ],
+  "max_samples": 211007,
+  "min_samples": 10439,
+  "max_frames": 1318,
+  "crop_frames": 64,
+  "hop_samples": 160,
+  "sample_rate": 16000,
+  "k_windows": 6,
+  "pause_relative_db": -30,
+  "train_only": true
+}

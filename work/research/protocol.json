@@ -1,0 +1,110 @@
+{
+  "created_at": "2026-10-15T11:54:23.310341+03:00",
+  "protocol": {
+    "arms": {
+      "GF": {
+        "title": "GAIN + FLAT",
+        "view": "base",
+        "batch": 8,
+        "kind": "base",
+        "control": "R9_GAIN",
+        "epochs": 4,
+        "schedule_epochs": 14,
+        "time_mode": "none",
+        "noise_all": 0.5,
+        "noise_real": 0.5,
+        "shift": 0.5,
+        "continuation": null,
+        "extra_aug": "gain_flat",
+        "source_arm": null
+      },
+      "GL": {
+        "title": "GAIN + LOCAL",
+        "view": "base",
+        "batch": 8,
+        "kind": "base",
+        "control": "R9_GAIN",
+        "epochs": 4,
+        "schedule_epochs": 14,
+        "time_mode": "none",
+        "noise_all": 0.5,
+        "noise_real": 0.5,
+        "shift": 0.5,
+        "continuation": null,
+        "extra_aug": "gain_local",
+        "source_arm": null
+      },
+      "FL_REPEAT": {
+        "title": "FLAT + LOCAL: независимые seed",
+        "view": "base",
+        "batch": 8,
+        "kind": "base",
+        "control": "R9_FL",
+        "epochs": 4,
+        "schedule_epochs": 14,
+        "time_mode": "none",
+        "noise_all": 0.5,
+        "noise_real": 0.5,
+        "shift": 0.5,
+        "continuation": null,
+        "extra_aug": "flat_local",
+        "source_arm": null
+      },
+      "GFL": {
+        "title": "GAIN + FLAT + LOCAL",
+        "view": "base",
+        "batch": 8,
+        "kind": "base",
+        "control": "R9_FL",
+        "epochs": 4,
+        "schedule_epochs": 14,
+        "time_mode": "none",
+        "noise_all": 0.5,
+        "noise_real": 0.5,
+        "shift": 0.5,
+        "continuation": null,
+        "extra_aug": "gain_flat_local",
+        "source_arm": null
+      }
+    },
+    "submission_order": [
+      "GF",
+      "GL",
+      "FL_REPEAT",
+      "GFL"
+    ],
+    "seeds": {
+      "GF": [
+        639320752,
+        639320753
+      ],
+      "GL": [
+        639320752,
+        639320753
+      ],
+      "FL_REPEAT": [
+        639320754,
+        639320755
+      ],
+      "GFL": [
+        639320752,
+        639320753
+      ]
+    },
+    "folds": [
+      "G3_A03",
+      "G5_A05",
+      "G1_A06"
+    ],
+    "max_new_submissions": 4,
+    "initial_remaining": 73,
+    "reserve": 69,
+    "authorization": "Human on15Oct requests exactly four LB attempts combining GAIN, FLAT and LOCAL. Existing FL99.74 repeated with two new model seeds rather than resubmitting identical predictions.",
+    "baseline": "Exact R9 P_MIX recipe: batch8,4 epochs,6000 balanced draws/epoch,AdamW.001/wd.01,cosine horizon14,original scaler,noise and global shifts retained;two members,mean logits,sigmoid(logit/5).",
+    "composition": "R9 deterministic FLAT/LOCAL views reused in exact order, final RMS then GAIN with the same per-file +/-6dB values as R9. Combination chosen jointly withp=.5 using unchanged separate R9 extra RNG. No tempo or other new augmentation. Native audio/padding/architecture unchanged.",
+    "controls": "GF/GL/GFL use original seeds639320752/753, so corresponding R9 single and FL comparisons are paired. FL_REPEAT uses754/755 with exactly old flat_local cache; compare to original FL as between-seed replication, not a paired ablation.",
+    "validation": "All four on three previous fixed speaker/attack-disjoint folds,2members each:12 local ensembles/24 members. No split/parameter changes from public scores. Report local vs old singles/FL; public gain does not establish private or seed stability.",
+    "freeze": "All four full models and repeat-verified CSVs frozen before reading any new public grade; ordinary authenticated browser forms; no confirmed/ambiguous POST replay; total<=4/live reserve69.",
+    "power": "Own temporary caffeinate only, atomic optimizer/RNG/cursor checkpoints; signal saves,<=1%discharging saves and pauses."
+  }
+}
